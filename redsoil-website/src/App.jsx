@@ -5,6 +5,7 @@ import SEOHead from "./components/SEOHead";
 import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
      <main>
         <Hero />
         <Services />
+        <About />
         <FAQ />
         <Contact />
       </main>

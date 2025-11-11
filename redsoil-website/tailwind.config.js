@@ -11,7 +11,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+      sans: ["Inter", "system-ui", "sans-serif"],
+            heading: ["Poppins", "system-ui", "sans-serif"],
       },
       // nice, soft container width
       maxWidth: {
