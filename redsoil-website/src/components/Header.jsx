@@ -27,9 +27,11 @@ export default function Header() {
 
           {/* desktop nav */}
           <nav className="hidden md:flex items-center gap-2">
-            <NavLink href="#services">Services</NavLink>
-            <NavLink href="#about">About</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
+        <NavLink href="/#services">Services</NavLink>
+        <NavLink href="/#about">About</NavLink>
+        <NavLink href="/#contact">Contact</NavLink>
+
+
             <a
               href="#contact"
               className="ml-2 rounded-lg bg-brand-primary px-3 py-2 text-white text-sm hover:bg-brand-primary/90 transition"
